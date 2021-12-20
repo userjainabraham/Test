@@ -29,7 +29,7 @@ public class EnergieKostenRechner  {
 				
 		driver.get("https://energiekostenrechner.post.at/#/");
 		
-			Thread.sleep(3000);
+			Thread.sleep(3000); 
 		
 		
 		driver.findElement(By.xpath("//button[@id='onetrust-accept-btn-handler']")).click();
