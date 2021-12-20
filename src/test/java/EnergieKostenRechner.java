@@ -102,8 +102,8 @@ public class EnergieKostenRechner  {
 
 		
 		
-		//driver.close();
-		//driver.quit();
+		driver.close();
+		driver.quit();
 
 }
 
