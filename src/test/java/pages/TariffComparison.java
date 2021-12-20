@@ -27,7 +27,7 @@ public class TariffComparison {
 	}
 	public void compareTarif() throws Exception{
 		Thread.sleep(1000);
-		List <WebElement> listOfEON = driver.findElements(By.xpath("button[@id='powercontractlink']"));
+		List <WebElement> listOfEON = driver.findElements(By.xpath("//button[@id='powercontractlink']"));
 		listOfEON.get(0).click();
 	}
 
